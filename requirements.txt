@@ -1,0 +1,9 @@
+numpy
+pandas
+streamlit
+pyvis
+python-dotenv
+matplotlib
+networkx
+openai
+graphviz
