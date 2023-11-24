@@ -1,8 +1,10 @@
 pandas
+pyvis
+pyvis.network
 streamlit
 matplotlib
 networkx
 openai
 python-dotenv
 graphviz
-pyvis
+
