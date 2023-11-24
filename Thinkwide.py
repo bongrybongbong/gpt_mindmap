@@ -26,6 +26,7 @@ from textwrap import dedent
 from streamlit_agraph import agraph, Node, Edge, Config
 from dotenv import load_dotenv
 from streamlit_pills import pills
+from streamlit_modal import Modal
 
 CATEGORY_NAMES = {
     "maps": "날짜 픽스",
@@ -351,6 +352,10 @@ class MindMap:
         for node in sorted(self.nodes):
             self._add_expand_delete_buttons(node)
 
+    # will initialize the graph from session state
+    # (if it exists) otherwise will create a new one
+
+
 def main():
     # will initialize the graph from session state
     # (if it exists) otherwise will create a new one
@@ -374,7 +379,6 @@ def main():
 
     if empty and not valid_submission:
         return
-
 #어떤 작업이 진행 중
     with st.spinner(text="Loading graph..."):
         # if submit and non-empty query, then update graph
@@ -391,13 +395,11 @@ def main():
         else:
             mindmap.visualize(graph_type)
 
-
-
 # Streamlit 페이지에 제목과 날짜/시간을 추가
 
-st.set_page_config(page_title="markmap", layout="wide")
 
 markdown_content = render_markdown(data)
+st.set_page_config(page_title="markmap", layout="wide")
 
 
 st.header('🫧Thinkwide Project Mind Map')
@@ -439,5 +441,6 @@ with tab2:
 with tab3:
     st.markdown(f'#### ThinkWide project 회의록')
     st.markdown(meeting_data)
+
 
 
