@@ -1,7 +1,7 @@
 pandas
 pyvis
 pyvis.network
-streamlit
+streamlit==1.12.2
 streamlit_markmap
 matplotlib
 networkx
