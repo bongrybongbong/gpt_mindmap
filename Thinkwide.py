@@ -4,7 +4,6 @@ import pandas as pd
 import streamlit as st
 import datetime
 import json
-from pyvis.network import Network
 from streamlit_markmap import markmap
 from page_utils import styled_hashtag, styled_text, render_markdown
 from data.first_data import name, meeting_data, data
@@ -15,7 +14,6 @@ import re
 from typing import Optional, Tuple, List, Union, Literal
 import base64
 import matplotlib.pyplot as plt
-import networkx as nx
 import streamlit as st
 from streamlit.delta_generator import DeltaGenerator
 import os
@@ -441,6 +439,5 @@ with tab2:
 with tab3:
     st.markdown(f'#### ThinkWide project 회의록')
     st.markdown(meeting_data)
-
 
 
