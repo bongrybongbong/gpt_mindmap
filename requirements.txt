@@ -1,8 +1,8 @@
+streamlit_markmap
 pandas
 pyvis
 pyvis.network
 streamlit
-streamlit-markmap
 markmap
 matplotlib
 networkx
