@@ -3,6 +3,7 @@ pyvis
 pyvis.network
 streamlit==1.12.2
 streamlit-markmap==1.0.1
+markmap
 matplotlib
 networkx
 openai
