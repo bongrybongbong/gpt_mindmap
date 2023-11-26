@@ -55,7 +55,8 @@ predefined_text = "ThinkWide, 기술개발, 하드웨어 호환, VR 헤드셋 �
 
 COLOR = "cyan"
 FOCUS_COLOR = "#f96c6c"
-openai.api_key= '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'
+load_dotenv()
+openai.api_key = os.getenv("openai.api_key")
 
 @dataclass
 class Message:
