@@ -1,6 +1,8 @@
 numpy
 streamlit-markmap==1.0.1
 pandas
+pyvis
+networkx
 streamlit
 openai
 graphviz
