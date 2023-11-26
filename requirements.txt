@@ -7,7 +7,6 @@ networkx
 openai
 graphviz
 dataclasses
-textwrap
 streamlit_agraph
 python-dotenv
 streamlit_pills
