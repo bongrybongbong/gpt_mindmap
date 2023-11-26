@@ -11,5 +11,3 @@ python-dotenv
 streamlit_pills
 streamlit_modal
 matplotlib
-streamlit-markmap
-
