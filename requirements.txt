@@ -4,7 +4,7 @@ pandas
 matplotlib
 pyvis
 networkx
-openai==0.28.1
+openai==0.28
 graphviz
 dataclasses
 streamlit_agraph
