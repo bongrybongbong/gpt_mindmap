@@ -5,7 +5,7 @@ matplotlib
 pyvis
 networkx
 openai
-openai migrate
+openai==0.28
 graphviz
 dataclasses
 streamlit_agraph
