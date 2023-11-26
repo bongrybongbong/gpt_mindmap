@@ -1,9 +1,9 @@
 numpy
-streamlit-markmap==1.0.1
+streamlit
 pandas
+matplotlib
 pyvis
 networkx
-streamlit
 openai
 graphviz
 dataclasses
@@ -12,4 +12,4 @@ streamlit_agraph
 python-dotenv
 streamlit_pills
 streamlit_modal
-matplotlib
+streamlit-markmap==1.0.1
