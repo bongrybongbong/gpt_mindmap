@@ -4,7 +4,6 @@ import pandas as pd
 import streamlit as st
 import datetime
 import json
-from streamlit_markmap import markmap
 from page_utils import styled_hashtag, styled_text, render_markdown
 from data.first_data import name, meeting_data, data
 from datetime import datetime
@@ -422,9 +421,6 @@ with col1:
 
 with col2:
     st.subheader('🫧Mind Map')
-    with open(r'C:\CODE\thinkwide_app-main\data\structured_markdown_data1.md', encoding='utf-8') as fp:
-        md = fp.read()
-    markmap(md,height=250)
 
 tab1, tab2, tab3 = st.tabs(["MINDMAP-NODE🫧", "MarkDown📊", "회의록 확인하기💫"])
 
