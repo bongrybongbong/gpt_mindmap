@@ -1,7 +1,7 @@
 numpy
+streamlit-markmap==1.0.1
 pandas
 streamlit
-streamlit_markmap
 openai
 graphviz
 dataclasses
