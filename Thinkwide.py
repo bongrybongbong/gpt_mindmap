@@ -196,7 +196,7 @@ class MindMap:
         if selected_node is not None:
             conversation = self.conversation + [
                 Message(f"""
-                    You can also expand the mind map for the selected node. add new edges to new nodes, starting from the node "{selected_node}"
+                    expand the mind map for the selected node. add new edges to new nodes, starting from the node "{selected_node}"
                 """, role="user")
             ]
             st.session_state.last_expanded = selected_node
